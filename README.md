@@ -37,3 +37,21 @@ name | description | type | default | required
         +   `'"matchReg" should be passed in as RegExp'`
 
     +   timeout: `'timeout'`
+
+## usage
+
+```js
+const detectResult = await detect({ filePath: 'xxx/xx/xxx.json', matchReg: /hello/, maxTimes: 12, internalTime: 500 });
+console.log(detectResult);
+```
+
+log:
+
+```bash
+{ success: true, count: 10 }
+```
+
+
+```bash
+{ success: false, count: 10, reason: 'timeout' }
+```
