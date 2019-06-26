@@ -1,0 +1,22 @@
+{
+  "name": "detect-file-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoperyy/detect-file-content.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoperyy/detect-file-content/issues"
+  },
+  "homepage": "https://github.com/hoperyy/detect-file-content#readme",
+  "devDependencies": {
+    "fs-extra": "^8.0.1"
+  }
+}
