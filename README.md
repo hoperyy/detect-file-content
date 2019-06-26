@@ -33,8 +33,8 @@ name | description | type | default | required
 
     +   params error
         
-        +   `'"filePath" should be passed in as string'`
-        +   `'"matchReg" should be passed in as RegExp'`
+        +   `"filePath" should be passed in as string`
+        +   `"matchReg" should be passed in as RegExp`
 
     +   timeout: `'timeout'`
 
