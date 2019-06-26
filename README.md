@@ -2,7 +2,7 @@
 
 `detect-file-content` will detect file content string intervally.
 
-## params as below:
+## Params
 
 name | description | type | default | required
 ---- | ---- | ---- | ---- | ----
@@ -11,7 +11,7 @@ name | description | type | default | required
 `filePath` | absolute file path | String | '' | true
 `matchReg` | RegExp | matchReg | null | '' | true
 
-## returns
+## Returns
 
 +   success
 
@@ -38,7 +38,7 @@ name | description | type | default | required
 
     +   timeout: `'timeout'`
 
-## usage
+## Usage
 
 ```js
 const detectResult = await detect({ 
