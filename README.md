@@ -27,7 +27,13 @@ name | description | type | default | required
     { success: false, reason: 'xxx', count: xx }
     ```
 
-    >   reasons:
-    >       params error: `'"filePath" should be passed in as string'` / `'"matchReg" should be passed in as RegExp'`
-    >       timeout: `'timeout'`
     >   count: detect count
+
+    >   reasons
+
+    +   params error
+        
+        +   `'"filePath" should be passed in as string'`
+        +   `'"matchReg" should be passed in as RegExp'`
+
+    +   timeout: `'timeout'`
