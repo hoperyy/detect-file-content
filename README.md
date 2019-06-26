@@ -16,10 +16,11 @@ name | description | type | default | required
 +   success
 
     ```js
-    { success: true, count: 10 }
+    { success: true, count: 10, content: 'xxx' }
     ```
 
     >   count: detect count
+    >   content: file content
 
 +   fail
 
@@ -53,7 +54,7 @@ console.log(detectResult);
 log:
 
 ```bash
-{ success: true, count: 10 }
+{ success: true, count: 10, content: 'xxx }
 ```
 
 

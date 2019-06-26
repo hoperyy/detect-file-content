@@ -24,7 +24,7 @@ module.exports = async ({ internalTime = 1000, maxTimes = 180, filePath = '', ma
                     const curContent = fs.readFileSync(filePath, 'utf8');
 
                     if (matchReg.test(curContent)) {
-                        resolve({ success: true, count });
+                        resolve({ success: true, count, content: curContent });
                         clearInterval(timer);
                     }   
                 }
