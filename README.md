@@ -41,7 +41,12 @@ name | description | type | default | required
 ## usage
 
 ```js
-const detectResult = await detect({ filePath: 'xxx/xx/xxx.json', matchReg: /hello/, maxTimes: 12, internalTime: 500 });
+const detectResult = await detect({ 
+    filePath: 'xxx/xx/xxx.json', 
+    matchReg: /hello/, 
+    maxTimes: 12, 
+    internalTime: 500 
+});
 console.log(detectResult);
 ```
 
